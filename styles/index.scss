@@ -94,6 +94,16 @@ body {
             color: white;
         }
     }
+    @media screen and (max-width: 350px) {
+        width: 100px;
+        height: 60px;
+        font-size: 10px;
+        margin-right: 5px;
+        .arrow-right {
+            font-size: 15px;
+            margin-top: 20px;
+        }
+    }
 }    
 
 .demo-button__text {
@@ -130,6 +140,10 @@ body {
     font-family: helvetica;
     font-weight: bold;
     line-height: 1.1;
+    @media screen and (max-width: 580px) {
+        font-size: 60px;
+        
+    }
 }
 
 .header__info {
@@ -143,6 +157,9 @@ body {
     font-family: $main-font;
     font-weight: 600;
     line-height: 1.6;
+    @media screen and (max-width: 580px) {
+        max-width: 250px;
+    }
 }
 
 .header-button {
@@ -175,7 +192,15 @@ body {
     max-width: 885px;
     width: 100%;
     position: absolute;
-    top: 25%;
+    top: 30%;
     left: 55%;
     z-index: -1;
+}
+
+.image-one {
+    max-width: 885px;
+    width: 100%;
+    @media screen and (max-width: 580px) {
+        max-width: 500px;
+    }
 }
