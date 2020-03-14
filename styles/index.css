@@ -3,12 +3,8 @@ body {
   width: 100%;
   max-height: 4500px;
   height: 100%;
-  background: white;
   background: linear-gradient(180deg, #b9dffc 0%, white 35%, white 100%);
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-repeat: repeat-x;
 }
 
 .header {
@@ -72,8 +68,13 @@ body {
   line-height: 1.6px;
   text-align: center;
 }
+.demo-button__text {
+  margin-left: 15px;
+}
 
 .arrow-right {
   color: #9C69E2;
-  font-size: 20px;
+  font-size: 35px;
+  text-align: center;
+  margin-left: 10px;
 }
