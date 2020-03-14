@@ -150,6 +150,11 @@ body {
   border-radius: 40px;
   text-align: center;
 }
+.learn-button:hover {
+  background-color: white;
+  color: #9C69E2;
+  border: 1px solid #4B5D68;
+}
 
 .learn-button__text {
   font-size: 18px;

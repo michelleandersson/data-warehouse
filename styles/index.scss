@@ -158,6 +158,11 @@ body {
     border: none;
     border-radius: 40px;
     text-align: center;
+    &:hover {
+        background-color: white;
+        color: $color-3;
+        border: 1px solid $color-1;
+    }
 }
 
 .learn-button__text {
