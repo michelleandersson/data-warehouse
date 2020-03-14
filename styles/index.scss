@@ -1,0 +1,88 @@
+$main-font: 'Nunito', sans-serif;
+$color-3: #9C69E2; 
+$color-1: #4B5D68; 
+$color-2: #212353; 
+$color-4: #F063B8; 
+$color-5: #68C9BA; 
+
+body {
+    max-width: 1600px;
+    width: 100%;
+    max-height: 4500px;
+    height: 100%;
+    background: rgb(255,255,255,1);
+    background: linear-gradient(180deg, rgb(185, 223, 252) 0%, rgba(255,255,255,1) 35%, rgba(255,255,255,1) 100%);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    max-width: 1248px;
+    width: 100%;
+    max-height: 754px;
+    height: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: transparent; 
+}
+
+.nav {
+    max-width: 1120px;
+    width: 100%;
+    max-height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.logo {
+    width: 49px;
+    height: 35px;
+}
+
+.nav__list {
+    list-style: none;
+    display: inline-flex;
+    
+
+}
+
+.nav__link {
+    margin-left: 40px;
+    &>a {
+        color: $color-1;
+        font-family: $main-font;
+        font-size: 16px;
+        line-height: 1.6px;
+        text-decoration: none;
+        &:hover {
+            color: $color-2;
+            font-weight: bold;
+        }
+    }
+}
+
+.demo-button {
+    width: 210px;
+    height: 60px;
+    display: inline-flex;
+    border: none;
+    border-radius: 25px;
+    background-color: white;
+    color: $color-2;
+    font-size: 16px;
+    font-family: $main-font;
+    font-weight: bold;
+    line-height: 1.6px;
+    text-align: center;
+}
+
+.arrow-right {
+    color: $color-3;
+    font-size: 20px;
+}
