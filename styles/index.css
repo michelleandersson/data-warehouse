@@ -78,6 +78,13 @@ body {
   text-align: center;
   box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
 }
+.demo-button:hover {
+  background-color: #9C69E2;
+  color: white;
+}
+.demo-button:hover .arrow-right {
+  color: white;
+}
 
 .demo-button__text {
   margin-left: 15px;
@@ -103,6 +110,7 @@ body {
   flex-direction: column;
   margin-top: 50px;
   margin-left: 10px;
+  position: relative;
 }
 
 .header__title {
@@ -126,4 +134,34 @@ body {
   font-family: "Nunito", sans-serif;
   font-weight: 600;
   line-height: 1.6;
+}
+
+.header-button {
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+.learn-button {
+  width: 170px;
+  height: 60px;
+  background-color: #9C69E2;
+  color: white;
+  border: none;
+  border-radius: 40px;
+  text-align: center;
+}
+
+.learn-button__text {
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+}
+
+.header__img {
+  max-width: 885px;
+  width: 100%;
+  position: absolute;
+  top: 25%;
+  left: 55%;
+  z-index: -1;
 }
