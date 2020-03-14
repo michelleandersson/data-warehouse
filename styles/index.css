@@ -5,6 +5,9 @@ body {
   height: 100%;
   background: linear-gradient(180deg, #b9dffc 0%, white 35%, white 100%);
   background-repeat: repeat-x;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .header {
@@ -13,10 +16,7 @@ body {
   max-height: 754px;
   height: 100%;
   margin-top: 50px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  background: transparent;
+  margin-left: 10px;
 }
 
 .nav {
@@ -26,7 +26,7 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  flex-direction: row;
+  margin-left: 10px;
 }
 
 .logo {
@@ -37,6 +37,7 @@ body {
 .nav__list {
   list-style: none;
   display: inline-flex;
+  margin-left: 40px;
 }
 
 .nav__link {
@@ -54,22 +55,33 @@ body {
   font-weight: bold;
 }
 
+.nav__button {
+  /*fix position so button is at end of page*/
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: 50px;
+}
+
 .demo-button {
   width: 210px;
   height: 60px;
   display: inline-flex;
   border: none;
-  border-radius: 25px;
+  border-radius: 40px;
   background-color: white;
   color: #212353;
   font-size: 16px;
   font-family: "Nunito", sans-serif;
   font-weight: bold;
-  line-height: 1.6px;
+  line-height: 1.6;
   text-align: center;
+  box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
 }
+
 .demo-button__text {
   margin-left: 15px;
+  font-weight: bold;
 }
 
 .arrow-right {
@@ -77,4 +89,41 @@ body {
   font-size: 35px;
   text-align: center;
   margin-left: 10px;
+  margin-top: 11px;
+}
+
+.header__main {
+  max-width: 645px;
+  width: 100%;
+  max-height: 464px;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+.header__title {
+  max-height: 184px;
+  height: 100%;
+  color: #212353;
+  font-size: 80px;
+  font-family: helvetica;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+.header__info {
+  max-width: 380px;
+  width: 100%;
+  max-height: 120px;
+  height: 100%;
+  margin-top: 50px;
+  color: #4B5D68;
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  line-height: 1.6;
 }
