@@ -32,9 +32,8 @@ body {
     max-width: 1120px;
     width: 100%;
     max-height: 60px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
     margin-left: 10px;
 }
 
@@ -46,13 +45,15 @@ body {
 .nav__list {
     list-style: none;
     display: inline-flex;
-    margin-left: 40px;
     
 
 }
 
 .nav__link {
     margin-left: 40px;
+    &:first-of-type {
+        margin-left: 0;
+    }
     &>a {
         color: $color-1;
         font-family: $main-font;
@@ -66,11 +67,11 @@ body {
     }
 }
 
-.nav__button { /*fix position so button is at end of page*/ 
+.nav__button {  
     display: flex; 
     justify-content: flex-end;
     align-items: center;
-    margin-left: 50px;
+    margin-left: 10px;
 }
 
 .demo-button {
