@@ -19,7 +19,7 @@ body {
 }
 
 .header {
-    max-width: 1248px;
+    max-width: 1117px;
     width: 100%;
     max-height: 754px;
     height: 100%;
@@ -198,9 +198,27 @@ body {
 
 .image-one {
     max-width: 885px;
-    width: 80%;
-    @media screen and (max-width: 580px) {
-        max-width: 500px;
+    width: 138%;
+    @media screen and (max-width:1000px) {
+        width: 122%;
+    }
+    @media screen and (max-width:900px) {
+        width: 100%;
+    }
+    @media screen and (max-width:800px) {
+        width: 80%;
+    }
+    @media screen and (max-width:700px) {
+        width: 70%;
+    }
+    @media screen and (max-width:600px) {
+        width: 60%;
+    }
+    @media screen and (max-width:500px) {
+        width: 50%;
+    }
+    @media screen and (max-width:400px) {
+        width: 40%;
     }
 }
 
