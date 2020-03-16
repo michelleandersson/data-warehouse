@@ -545,3 +545,105 @@ body {
   margin-top: 20px;
   font-weight: bold;
 }
+
+.footer {
+  margin-top: 50px;
+  margin-left: 5px;
+  max-width: 1117px;
+  width: 100%;
+  max-height: 408px;
+  height: 100%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer__container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.footer__logo {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo-img {
+  width: 49px;
+  height: 35px;
+}
+
+.logo-title {
+  padding-left: 10px;
+  padding-top: 5px;
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  line-height: 1.6;
+  color: #212353;
+}
+
+.link {
+  align-self: center;
+}
+
+.link-title {
+  font-size: 16px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  color: #212353;
+  line-height: 1.6;
+}
+
+.location__adress {
+  font-size: 16px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  line-height: 1.8;
+  color: #212353;
+}
+
+.location__contact {
+  font-size: 16px;
+  font-family: "Nunito", sans-serif;
+  line-height: 1.8;
+  color: #212353;
+}
+
+.footer__links {
+  list-style: none;
+}
+
+.footer__li > a {
+  font-size: 16px;
+  font-family: "Nunito", sans-serif;
+  color: #212353;
+  line-height: 2.5;
+  text-decoration: none;
+}
+.footer__li > a:hover {
+  text-decoration: underline;
+  color: #9C69E2;
+}
+
+.media-logo {
+  width: 50px;
+  height: 50px;
+  margin-left: 14px;
+}
+.media-logo:hover {
+  transform: scale(1.5);
+}
+
+.copyright__text {
+  margin-top: 50px;
+  font-size: 12px;
+  font-family: "Nunito", sans-serif;
+  color: #212353;
+  line-height: 1.8;
+}
